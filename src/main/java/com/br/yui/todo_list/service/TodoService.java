@@ -3,9 +3,11 @@ package com.br.yui.todo_list.service;
 import com.br.yui.todo_list.entity.Todo;
 import com.br.yui.todo_list.repository.TodoRepository;
 import org.springframework.data.domain.Sort;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class TodoService {
     private TodoRepository todoRepository;
 
